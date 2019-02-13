@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Load resources
+xrdb -merge .Xresources
+#Apps
+hsetroot -center ~/.wallpaper.jpg
+xsettingsd &
+xautolock -time 10 -locker 'slock' &
+setxkbmap -layout "us,lt,ru" -option "grp:ctrl_shift_toggle"
+exec herbstluftwm

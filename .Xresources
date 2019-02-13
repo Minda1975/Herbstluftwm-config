@@ -1,0 +1,81 @@
+! XTerm
+
+XTerm*background:        #222D31
+XTerm*foreground:        #d8d8d8
+XTerm*pointerColor:      #1ABB9B
+XTerm*faceName:          Iosevka Term
+XTerm*faceSize: 11
+
+*.foreground: #b4744d
+*.background: #342f2f
+*.cursorColor: #b4744d
+
+*.color0: #181616
+*.color8: #827777
+
+*.color1: #a00000
+*.color9: #ffae7c
+
+*.color2: #955900
+*.color10: #ffae7c
+
+*.color3: #957400
+*.color11: #ffae7c
+
+*.color4: #826262
+*.color12: #ffae7c
+
+*.color5: #914c00
+*.color13: #ffae7c
+
+*.color6: #b37e01
+*.color14: #ffae7c
+
+*.color7: #ffdbdb
+*.color15: #ccafaf
+
+
+
+URxvt.font: xft:Iosevka Term:size=10 :antialias=true:autohint=false
+URxvt.boldFont: xft:Iosevka Term:Bold:size=10 :antialias=true:autohint=false
+URxvt.geometry: 		72x18
+URxvt*letterSpace: 	    0
+URxvt.lineSpace: 		0
+URxvt*internalBorder:   24
+URxvt*externalBorder:   0
+URxvt*depth:            32
+URxvt*saveline:         2000
+URxvt*termName:         rxvt-256color
+URxvt*iso14755:         false
+URxvt*scrollBar:        false
+URxvt*scrollBar_right:  false
+URxvt.copyCommand:      xclip -i -selection clipboard
+URxvt.pasteCommand:     xclip -o -selection clipboard
+URxvt.keysym.Shift-Up:	command:\033]720;1\007
+URxvt.keysym.Shift-Down:command:\033]721;1\007
+URxvt.urlLauncher:      firefox
+URxvt.underlineURLs:    true
+URxvt.urlButton:        1
+URxvt*buffered:         false          
+URxvt.urgentOnBell: 	True
+
+
+
+
+! ------------------------------------------------------------------------------
+! Xft Font Configuration
+! ------------------------------------------------------------------------------
+
+Xft.autohint: 0
+Xft.lcdfilter: lcddefault
+Xft.hintstyle: hintslight
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
+
+
+
+
+
+
+

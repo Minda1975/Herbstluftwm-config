@@ -1,0 +1,10 @@
+#!/bin/bash
+
+HEIGHT="15"
+FN="Sans-10"
+NF="#686868"
+NB="#313131"
+SF="#898989"
+SB="#454545"
+OPTIONS="-b -i -l $HEIGHT -fn $FN -nf $NF -nb $NB -sf $SF -sb $SB"
+export HEIGHT FN NF NB SF SB OPTIONS
